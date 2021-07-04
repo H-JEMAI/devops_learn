@@ -10,6 +10,6 @@ RUN npm install
 #copier les fichers sources
 COPY  my-app/. /App
 
-EXPOSE 4000
+EXPOSE 5000
 # le command a excute pour lance le projet ( pour créer conteneur)
 CMD ["npm","run","start" ]
